@@ -20,6 +20,3 @@ def acquire():
     df_master = pd.read_sql_query(sql, engine)
     return df_master
 
-
-if __name__ == "__main__":
-    df_master()
