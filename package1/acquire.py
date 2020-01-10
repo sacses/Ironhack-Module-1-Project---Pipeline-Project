@@ -15,8 +15,9 @@ def acquire():
     ON rank_info.id = business_info.id \
     ORDER BY rank_info.position DESC"
 
-    engine = create_engine('sqlite:///../data/raw/frantamarit.db')
+    engine = create_engine('sqlite:///data/raw/frantamarit.db')
 
     df_master = pd.read_sql_query(sql, engine)
+    print(f'Database loaded ok')
     return df_master
 
