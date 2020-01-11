@@ -1,5 +1,3 @@
-Below the list of python libraries required to execute the pipeline, and more:
-
 asn1crypto==1.2.0
 backcall==0.1.0
 beautifulsoup4==4.8.2
